@@ -7,3 +7,10 @@
   pause:
     seconds: 30
 ```
+
+## When
+
+****
+```ansible
+when: "'bla' not in ansible_hostname"
+```
